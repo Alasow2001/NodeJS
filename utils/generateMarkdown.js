@@ -66,6 +66,9 @@ function generateMarkdown(answers) {
   ## Tests
   ${answers.test}
 
+  ## Credits
+  ${answers.credits}
+
   ## Questions
   If you have any questions, please reach out to: [${answers.username}](https://github.com/${answers.username})
 
