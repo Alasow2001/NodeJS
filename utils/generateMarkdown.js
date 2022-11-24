@@ -61,10 +61,13 @@ function generateMarkdown(answers) {
 
   ## Contrubuting
   The following people are the ones who are contributing to the project: 
-  ${answers.contributing}
+  ${answers.contributor}
 
   ## Tests
-  ${answers.tests}
+  ${answers.test}
+
+  ## Questions
+  If you have any questions, please reach out to: [${answers.username}](https://github.com/${answers.username})
 
 `;
 }
