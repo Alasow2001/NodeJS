@@ -1,12 +1,10 @@
-
-
-  # README GENERATOR
+  # README Generator
 
   ![badge](https://img.shields.io/github/license-MIT-blue.svg/)
 
   ## Description
 
-  This will generate a README.md file for you projects once after answering these questions in the terminal
+  This will generate a README.md file once the user has answered the questions using the terminal
 
   ## Table of Contents
 
@@ -20,15 +18,18 @@
   - [Tests](#tests)
 
   ## Installation 
-  You will need to have NODEJS installed onot your machine  and then initialise and install npm and inquirer through the terminal. Note that for the inquirer, you will need to install specifically version 8.2.4 (To install in the terminal, perform the following action in the terminal: npm i@8.2.4).
+  You will need NodeJS installed onto your machine, then initialise the npm and inquirer through the terminal, specifcally version 8.2.4 using the command npm i@8.2.4.
 
   ## Usage
-  You can use this application to generate README files for future projects
+  This can be used to generate these README.md files for future projects throug the termianl once you run the command node.js. Then once you answered the questions, both a README file is generated and the terminal will output the line: Successful README generated.
 
   ## Contrubuting
   The following people are the ones who are contributing to the project: 
-  undefined
+  Ahmed Alasow
 
   ## Tests
-  undefined
+  None included
+
+  ## Questions
+  If you have any questions, please reach out to: [Alasow2001](https://github.com/Alasow2001)
 
