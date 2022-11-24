@@ -68,8 +68,8 @@ function init() {
     inquirer
     .prompt(questions)
     .then((answers) => {
-        const generateREADME = generateMarkdown(answers);
-        writeToFile('README.md', readme);
+        const README = generateMarkdown(answers);
+        writeToFile('README.md', README);
     });
 }
 
