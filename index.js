@@ -6,6 +6,16 @@ const generateMarkdown = require('./utils/generateMarkdown');
 const questions = [
     {
         type: 'input',
+        name: 'username',
+        message: 'Enter your GitHub username: ',
+    },
+    {
+        type: 'input',
+        name: 'email',
+        message: 'Enter your email address: ',
+    },
+    {
+        type: 'input',
         name: 'title',
         message: 'What is the name of your README document?',
     },
@@ -33,16 +43,7 @@ const questions = [
         type: 'list',
         name: 'license',
         message: 'Choose a license: ',
-        choices: [
-            {
-                name: 'None',
-                value: 'None',
-            },
-            {
-                name: 'MIT License',
-                value: 'MITLicense',
-            },
-        ],
+        choices: ['None', 'MIT', 'APACHE 2.0', 'GPL 3.0', 'BSD 3'],
     },
     {
         type: 'input',
@@ -50,23 +51,15 @@ const questions = [
         message: 'Type in those that have contributed to this project: ',
     },
     {
-
-    },
-    {
         type: 'input',
-        name: 'username',
-        message: 'Enter your GitHub username: ',
+        name: 'test',
+        message: 'Are there any tests included in the project?'
     },
-    {
-        type: 'input',
-        name: 'email',
-        message: 'Enter your email address: ',
-    }
 ];
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-    fs.writeFile(filename, data, (err) => err ? console.log(err): console.log('Successful README generated'));
+    fs.writeFile(fileName, data, (err) => err ? console.log(err) : console.log('Successful README generated'));
 
 }
 
@@ -77,7 +70,7 @@ function init() {
     .then((answers) => {
         const generateREADME = generateMarkdown(answers);
         writeToFile('README.md', readme);
-    })
+    });
 }
 
 // Function call to initialize app
