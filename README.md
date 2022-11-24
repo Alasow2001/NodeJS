@@ -1,34 +1,35 @@
   # README Generator
 
-  ![badge](https://img.shields.io/github/license-MIT-blue.svg/)
+  ![badge](https://img.shields.io/badge/license-MIT-blue.svg/)
 
   ## Description
 
-  This will generate a README.md file once the user has answered the questions using the terminal
+  This project will ask you questions about your current project, including the description, the usage, who's contributing to the project, whether or not there are test included and links either to the project or links that assisted the user to their project and to install the project through the terminal. Once the questions are answered, it will then generate a README.md file.
 
   ## Table of Contents
 
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [Credits](#credits)
-  - 
-* [License](#license)
-
-  - [Contributor](#contributor)
-  - [Tests](#tests)
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Credits](#credits) 
+  * [License](#license)
+  * [Contributor](#contributor)
+  * [Tests](#tests)
 
   ## Installation 
-  You will need NodeJS installed onto your machine, then initialise the npm and inquirer through the terminal, specifcally version 8.2.4 using the command npm i@8.2.4.
+  Clone the repository from github, then open it up on VSCode through the terminal. Then, use the command 'node index.js' in the terminal and then answer the questions generated based on the project, it will then auto-generate a README file
 
   ## Usage
-  This can be used to generate these README.md files for future projects throug the termianl once you run the command node.js. Then once you answered the questions, both a README file is generated and the terminal will output the line: Successful README generated.
+  This can be used to generate a README.md file for any future projects you will embark on.
 
   ## Contrubuting
   The following people are the ones who are contributing to the project: 
-  Ahmed Alasow
+  Ahmed Alasow (me)
 
   ## Tests
   None included
+
+  ## Credits
+  Links to get Markdown license badges: https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba 
 
   ## Questions
   If you have any questions, please reach out to: [Alasow2001](https://github.com/Alasow2001)
