@@ -24,7 +24,7 @@
   This can be used to generate a README.md file about any projects instantly just be answering the questions generated through the project.
 
   ## License
-  This project is currently under: MIT
+  This project is currently under the following license: MIT
 
   ## Contributing
   The following people are the ones who are contributing to the project: 
@@ -34,9 +34,9 @@
   None
 
   ## Credits
-  Video tutorial: https://drive.google.com/file/d/1TGnnsNLiRkmSCBdSHljS6nhFVT5l_Sp9/view
-  List of Markdown Licenses: https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba
-  Professional README guide: https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide/
+  - Video tutorial: https://drive.google.com/file/d/1TGnnsNLiRkmSCBdSHljS6nhFVT5l_Sp9/view
+  - List of Markdown Licenses: https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba
+  - Professional README guide: https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide/
 
   ## Questions
   If you have any questions, please reach out to: [Alasow2001](https://github.com/Alasow2001)
