@@ -50,8 +50,8 @@ function generateMarkdown(answers) {
   * [Usage](#usage)
   * [Credits](#credits)
   * ${renderLicenseLink(answers.license)}
-  * [Contributor](#contributor)
-  * [Tests](#tests)
+  * [Contributor](#contributing)
+  * [Tests](#test)
 
   ## Installation 
   ${answers.installation}
@@ -59,9 +59,12 @@ function generateMarkdown(answers) {
   ## Usage
   ${answers.usage}
 
+  ## License
+  This project is currently under: ${answers.license}
+
   ## Contributing
   The following people are the ones who are contributing to the project: 
-  ${answers.contributor}
+  ${answers.contributing}
 
   ## Tests
   ${answers.test}

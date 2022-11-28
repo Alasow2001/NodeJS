@@ -47,7 +47,7 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'contributor',
+        name: 'contributing',
         message: 'Type in those that have contributed to this project: ',
     },
     {
