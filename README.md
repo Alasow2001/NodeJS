@@ -23,7 +23,10 @@
   ## Usage
   This can be used to generate a README.md file about any projects instantly just be answering the questions generated through the project.
 
-  Video tutorial: https://drive.google.com/file/d/1TGnnsNLiRkmSCBdSHljS6nhFVT5l_Sp9/view
+  Video Tutorial
+  ![](./assests/README%20tutorial.webm)
+
+  Link to video tutorial: https://drive.google.com/file/d/1TGnnsNLiRkmSCBdSHljS6nhFVT5l_Sp9/view
 
   ## License
   This project is currently under: MIT
